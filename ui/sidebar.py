@@ -2,7 +2,7 @@ import streamlit as st
 
 def render_sidebar():
     # Título da barra lateral
-    st.sidebar.title("Menu de gestão")
+    st.sidebar.title("Gestão de Ativos")
     
     # 1. Menu Principal
     menu_selecionado = st.sidebar.radio(
